@@ -1,0 +1,39 @@
+.navbar{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center ;
+    margin: 1rem;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white ;
+    margin: 0.5rem;
+}
+.navbar li a:hover{
+    color: goldenrod ;
+}
+
+/* Mobile view */
+.mobileNavbar a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:black;
+}
+.mobileNavbar a:hover{
+    
+    color:goldenrod;
+}
+
+.mobileNavbar li{
+    margin: 2rem 0px;
+}
+
+/* Footer */
+
+.socialMedia svg:hover{
+    transform: translateX(5px);
+    transition: all(0.4s);
+    color: goldenrod;
+}
